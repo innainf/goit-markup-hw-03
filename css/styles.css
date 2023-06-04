@@ -1,0 +1,194 @@
+:root {
+    --primary-text-color: #434455;
+    --title-color: #2E2F42;
+    --pimary-bg-color-button: #4D5AE5;
+    --text-btn-color: #FFFFFF;
+    
+    
+.list {
+    list-style: none;
+}
+.list{
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/*=================Component=========*/
+.logotype{
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+
+    color: #4D5AE5;
+}
+.logi-color{
+    color:#2E2F42;
+}
+.modal-button:hover,
+.modal-button:focus{
+   background-color:var(--pimary-bg-color-button);
+   color:var(--text-btn-color);
+   text-align: center;
+}
+.modal-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background-color:var(--pimary-bg-color-button);
+    color:var(--text-btn-color);
+}
+.button-about:hover,
+.button-about:focus{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.button-about{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+    
+  
+/*=================/Component=========*/
+/*=================Header=========*/
+.menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color:#4D5AE5;
+}
+.telephone {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.telephone:hover,
+.telephone:focus {
+    color:#4D5AE5;
+}
+/*=================/Header=========*/
+/*=================Hero=============*/
+.main-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /*color: #FFFFFF;*/
+}
+.h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(title-color);
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: var(--title-color);
+}
+.paragraf{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: var(--primary-text-color);
+}
+.paragraf-center {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    text-align: center;
+    letter-spacing: 0.02em;
+/* SLATE */
+color: var(--primary-text-color);
+}
+.paragraf-left-name{
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(title-color); 
+}
+.paragraf-left{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    text-align: left;
+    letter-spacing: 0.02em;
+/* SLATE */
+color: var(--primary-text-color);
+}
+/*=================/Hero=============*/

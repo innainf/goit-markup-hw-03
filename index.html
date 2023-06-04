@@ -5,54 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800family=Roboto:wght@400;500;700;900display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="./css/styles.css"/>
 </head>
  <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+    <!--Header-->
+    <header class="page-header">
+        <nav class="page-nav">
+            <a class="logotype" href="./index.html">Web<span class="logi-color">Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-item">
+                    <a class="menu-link" href="#about">Studio</a></li>
+                <li class="menu-item">
+                    <a class="menu-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#contacts">Contacts</a></li>
             </ul>  
         </nav>      
         <address>  
             <ul> 
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="telephone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
-        </address>        
+        </address>                
     </header>
     <main>
+    <!--Hero-->
     <section>
-        <h1>
+        <h1 class="main-title">
         Effective Solutions for Your Business
         </h1>
-        <button type="button">Order Service</button>
+        <button class="modal-button" type="button">Order Service</button>
     </section>
     <section>
-        <h2>our benefits</h2>
+        <h2 class="h2">our benefits</h2>
         <ul>
             <li>
-                <h3>Strategy</h3>
-                <p>Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
+                <h3 class="title" >Strategy</h3>
+                <p class="paragraf">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
             </li>
             <li>
-                <h3>Punctuality</h3>
-                <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                <h3 class="title">Punctuality</h3>
+                <p class="paragraf">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
             <li>
-                <h3>Diligence</h3>
-                <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                <h3 class="title">Diligence</h3>
+                <p class="paragraf">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
             </li>    
             <li>
-                <h3>Technologies</h3>
-                <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                <h3 class="title">Technologies</h3>
+                <p class="paragraf">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
         </ul>
     </section>
     <section>
-        <h2>What are we doing</h2>
+        <h2 class="h2">What are we doing</h2>
         <ul>
             <li><img src="./images/rectangle71.jpg" alt="computer" width="360"/></li>
             <li><img src="./images/rectanglephone71.jpg" alt="Phone" width="360"/></li>
@@ -60,34 +69,34 @@
         </ul>
     </section>
     <section>
-        <h2>Our Team</h2>
+        <h2 class="h2">Our Team</h2>
         <ul>
             <li>
                 <img src="./images/mark.jpg" alt="mark" width="264"/>
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
+                <h3 class="title">Mark Guerrero</h3>
+                <p class="paragraf-center">Product Designer</p>
             </li>
             <li>
                 <img src="./images/tom.jpg" alt="tom" width="264"/>
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <h3 class="title">Tom Ford</h3>
+                <p class="paragraf-center">Frontend Developer</p>
             </li>
             <li>
                 <img src="./images/camila.jpg" alt="camila" width="264"/>
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
+                <h3 class="title">Camila Garcia</h3>
+                <p class="paragraf-center">Marketing</p>
             </li>
             <li>
                 <img src="./images/daniel.jpg" alt="daniel" width="264"/>
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <h3 class="title">Daniel Wilson</h3>
+                <p class="paragraf-center">UI Designer</p>
             </li>   
         </ul>
     </section>
     </main>
     <footer>
-        <a class="logo link" href="./index.html">WebStudio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <a class="logotype" href="./index.html">Web<span class="logi-color">Studio</span></a>
+        <p class="paragraf">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer> 
  </body>
 </html>
