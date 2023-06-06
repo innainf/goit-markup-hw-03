@@ -14,15 +14,22 @@
 .link {
     text-decoration: none;
 }
-
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    color: #434455; 
+    background-color: #FFFFFF;
+}
 /*=================Component=========*/
-.logotype{
+.logo{
     font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1,17;
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
@@ -44,50 +51,25 @@
     font-size: 16px;
     line-height: 1,5;
     display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     background-color:var(--pimary-bg-color-button);
     color:var(--text-btn-color);
 }
 .button-about:hover,
 .button-about:focus{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 24px;
-    width: 69px;
-    height: 48px;
     background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
     display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 .button-about{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    width: 116px;
-    height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
     
   
@@ -123,7 +105,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
     text-align: center;
     letter-spacing: 0.02em;
     /*color: #FFFFFF;*/
@@ -142,22 +123,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
-    /* identical to box height, or 120% */
-    
+    line-height: 1,2;   
     text-align: center;
-    letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
-    
+    letter-spacing: 0.02em;    
     color: var(--title-color);
 }
 .paragraf{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
 
 /* SLATE */
 
