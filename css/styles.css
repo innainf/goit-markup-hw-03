@@ -1,18 +1,16 @@
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
 :root {
     --primary-text-color: #434455;
     --title-color: #2E2F42;
     --pimary-bg-color-button: #4D5AE5;
     --text-btn-color: #FFFFFF;
-    
-    
-.list {
-    list-style: none;
-}
-.list{
-    list-style: none;
-}
-.link {
-    text-decoration: none;
+    --paragraf-footer: #F4F4FD;
+    --logi-color-footer: #F4F4FD;
 }
 .body{
     font-family: 'Roboto', sans-serif;
@@ -23,22 +21,22 @@
     color: #434455; 
     background-color: #FFFFFF;
 }
-/*=================Component=========*/
 .logo{
-    font-family: 'Raleway' sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1,17;
-    display: flex;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        font-family: 'Raleway' sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1,17;
+        display: flex;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;  
+        color: #4D5AE5;
+}
+.logi-color-header{
     color: var(--title-color);
+}
+      
+/*=================Component=========*/
 
-    color: #4D5AE5;
-}
-.logi-color{
-    color:#2E2F42;
-}
 .modal-button:hover,
 .modal-button:focus{
    background-color:var(--pimary-bg-color-button);
@@ -117,14 +115,13 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(title-color);
+    color: var(--title-color);
 }
 .title{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;   
-    text-align: center;
+    line-height: 1,2;
     letter-spacing: 0.02em;    
     color: var(--title-color);
 }
@@ -134,10 +131,16 @@
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
-
-/* SLATE */
-
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
+}
+.title-center{
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color); 
 }
 .paragraf-center {
     font-family: 'Roboto',sans-serif;
@@ -149,22 +152,19 @@ color: var(--primary-text-color);
 /* SLATE */
 color: var(--primary-text-color);
 }
-.paragraf-left-name{
-    font-family: 'Roboto'sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1,2;
-    letter-spacing: 0.02em;
-    color: var(title-color); 
-}
-.paragraf-left{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1,5;
-    text-align: left;
-    letter-spacing: 0.02em;
-/* SLATE */
-color: var(--primary-text-color);
-}
+
 /*=================/Hero=============*/
+
+
+
+/*=================Footer===========*/
+.logo-color-list{
+    background-color:var(--title-color);    
+}
+.logi-color-footer{
+    color:var(--logi-color-footer);
+}
+.paragraf-footer{
+    color: var(--paragraf-footer);
+}
+/*=================/Footer===========*/
