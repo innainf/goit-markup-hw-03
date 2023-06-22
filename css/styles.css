@@ -22,24 +22,30 @@
     background-color: #FFFFFF;
 }
 .logo{
-        font-family: 'Raleway' sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
+        /*display: flex;*/
         letter-spacing: 0.03em;
         text-transform: uppercase;  
-        color: #4D5AE5;
+        color:#4D5AE5;
 }
 .logi-color-header{
-    color: var(--title-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+  /*display: flex;
+    align-items: center;*/
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#2E2F42;
 }
 .address{
     font-style: normal;
-}
-      
+}     
 /*=================Component=========*/
-
 .modal-button:hover,
 .modal-button:focus{
    background-color:var(--pimary-bg-color-button);
@@ -51,7 +57,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
+    /*display: flex;*/
     letter-spacing: 0.04em;
     background-color:var(--pimary-bg-color-button);
     color:var(--text-btn-color);
@@ -79,8 +85,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.7;
-    /*text-align: center;*/
+    line-height:1.07;
+    text-align:center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -92,8 +98,8 @@
     /*display: flex;
     text-align: center;*/
     letter-spacing: 0.04em;
-    color:var(--pimary-bg-color-button);
-    background-color: #F4F4FD;
+    color:#FFFFFF;
+    background-color:#4D5AE5;
     cursor: pointer;
 }
 .button-about:hover, 
@@ -102,15 +108,23 @@
     color: #FFFFFF;
     /*border: 1px solid #E7E9FC;*/
 }   
-.hh2{
+.header2{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /*text-align: center;*/
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
+}
+.header2-portfolio{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
 }
 .title{
     font-family: 'Roboto', sans-serif;
@@ -144,8 +158,7 @@
     line-height: 1.5;
     /*text-align: center;*/
     letter-spacing: 0.02em;
-/* SLATE */
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 .section-fourth{
     background-color: #F4F4FD;
@@ -155,9 +168,6 @@ color: var(--primary-text-color);
 }
 
 /*=================/Hero=============*/
-
-
-
 /*=================Footer===========*/
 .logo-color-list{
     background-color:var(--title-color);    
