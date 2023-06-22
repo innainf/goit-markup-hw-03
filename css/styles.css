@@ -17,7 +17,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: #434455; 
     background-color: #FFFFFF;
 }
@@ -25,7 +25,7 @@
         font-family: 'Raleway' sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1,17;
+        line-height: 1.17;
         display: flex;
         letter-spacing: 0.03em;
         text-transform: uppercase;  
@@ -34,6 +34,9 @@
 .logi-color-header{
     color: var(--title-color);
 }
+.address{
+    font-style: normal;
+}
       
 /*=================Component=========*/
 
@@ -41,78 +44,70 @@
 .modal-button:focus{
    background-color:var(--pimary-bg-color-button);
    color:var(--text-btn-color);
-   text-align: center;
+   /*text-align*/
 }
 .modal-button {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     display: flex;
     letter-spacing: 0.04em;
     background-color:var(--pimary-bg-color-button);
     color:var(--text-btn-color);
 }
-.button-about:hover,
-.button-about:focus{
-    background: #404BBF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
-.button-about{
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-}
-    
-  
 /*=================/Component=========*/
 /*=================Header=========*/
 .menu-link{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 }
 .menu-link:hover,
 .menu-link:focus{
-    color:#4D5AE5;
-}
-.telephone {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.telephone:hover,
-.telephone:focus {
-    color:#4D5AE5;
+    color:#404BBF;
 }
 /*=================/Header=========*/
 /*=================Hero=============*/
+.section-first{
+    background-color: #2E2F42;
+}
 .main-title{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
-    text-align: center;
+    line-height: 1.7;
+    /*text-align: center;*/
     letter-spacing: 0.02em;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
-.h2{
+.button-about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /*display: flex;
+    text-align: center;*/
+    letter-spacing: 0.04em;
+    color:var(--pimary-bg-color-button);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.button-about:hover, 
+.button-about:focus{
+    background: #404BBF;
+    color: #FFFFFF;
+    /*border: 1px solid #E7E9FC;*/
+}   
+.hh2{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
-    text-align: center;
+    line-height: 1.11;
+    /*text-align: center;*/
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
@@ -121,7 +116,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;    
     color: var(--title-color);
 }
@@ -129,7 +124,7 @@
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -137,8 +132,8 @@
     font-family: 'Roboto'sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
-    text-align: center;
+    line-height: 1.2;
+    /*text-align: center;*/
     letter-spacing: 0.02em;
     color: var(--title-color); 
 }
@@ -146,11 +141,17 @@
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
-    text-align: center;
+    line-height: 1.5;
+    /*text-align: center;*/
     letter-spacing: 0.02em;
 /* SLATE */
 color: var(--primary-text-color);
+}
+.section-fourth{
+    background-color: #F4F4FD;
+}
+.punkt{
+    background-color: #FFFFFF;
 }
 
 /*=================/Hero=============*/
@@ -162,9 +163,21 @@ color: var(--primary-text-color);
     background-color:var(--title-color);    
 }
 .logi-color-footer{
-    color:var(--logi-color-footer);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+/*  display: flex;
+    align-items: center;*/
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
 }
 .paragraf-footer{
-    color: var(--paragraf-footer);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 /*=================/Footer===========*/
