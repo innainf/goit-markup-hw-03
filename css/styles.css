@@ -117,6 +117,11 @@
     color: var(--pimary-bg-color-button);
     background-color: var(--logi-color-footer);
 }
+.button:hover, 
+.button:focus{
+    background: #404BBF;
+    color: #FFFFFF;
+}
 .header-second{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
