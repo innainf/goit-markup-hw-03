@@ -40,7 +40,7 @@
     align-items: center;*/
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#2E2F42;
+    color:var(--title-color);
 }
 .address{
     font-style: normal;
@@ -108,7 +108,16 @@
     color: #FFFFFF;
     /*border: 1px solid #E7E9FC;*/
 }   
-.header2{
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--pimary-bg-color-button);
+    background-color: var(--logi-color-footer);
+}
+.header-second{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -118,7 +127,7 @@
     text-transform: capitalize;
     color: var(--title-color);
 }
-.header2-portfolio{
+.header-portfolio{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
