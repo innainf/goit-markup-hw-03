@@ -76,6 +76,18 @@
 .menu-link:focus{
     color:#404BBF;
 }
+.menu-link-portf{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+.menu-link-portf:hover,
+.menu-link-portf:focus{
+    color:#404BBF;
+}
 /*=================/Header=========*/
 /*=================Hero=============*/
 .section-first{
@@ -116,6 +128,7 @@
     letter-spacing: 0.04em;
     color: var(--pimary-bg-color-button);
     background-color: var(--logi-color-footer);
+    cursor: pointer;
 }
 .button:hover, 
 .button:focus{
