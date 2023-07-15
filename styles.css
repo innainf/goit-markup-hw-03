@@ -11,6 +11,7 @@
     --text-btn-color: #FFFFFF;
     --paragraf-footer: #F4F4FD;
     --logi-color-footer: #F4F4FD;
+    --border-botton:#e7e9fc ;
 }
 h1,
 h2,
@@ -19,6 +20,7 @@ h4,
 p{
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 ul,
 ol{
@@ -33,13 +35,15 @@ button{
     cursor: pointer;
 }
 .container {
-    width: 1170px;
-    margin-left: 15px;
-    margin-right: 15px;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container{
     display: flex;
@@ -66,7 +70,9 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;  
     color:#4D5AE5;
-    margin-right: 156px;
+    margin-right: 76px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .logi-color-header{
     font-family: 'Raleway', sans-serif;
@@ -99,10 +105,12 @@ button{
 /*=================Header=========*/
 .menu{
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 .menu-item:not(:last-child){
     margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu-link{
     font-family: 'Roboto', sans-serif;
@@ -115,6 +123,10 @@ button{
 .menu-link:hover,
 .menu-link:focus{
     color:#404BBF;
+}
+.address{
+    display: flex;
+    gap: 40px;
 }
 .menu-link-address{
     font-family: 'Roboto', sans-serif;
@@ -154,7 +166,7 @@ button{
 .section-first{
     background-color: #2E2F42;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     text-align: center;
 }
 .main-title{
@@ -165,6 +177,7 @@ button{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 .button-about{
     font-family: 'Roboto', sans-serif;
@@ -182,6 +195,7 @@ button{
     padding-right: 32px;
     padding-bottom: 16px;
     padding-left: 32px;
+    display: block;
 }
 .button-about:hover, 
 .button-about:focus{
@@ -197,12 +211,18 @@ button{
     color: var(--pimary-bg-color-button);
     background-color: var(--logi-color-footer);
     cursor: pointer;
-
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid var(--border-botton);
+    border-radius: 4px;
 }
 .button:hover, 
 .button:focus{
     background: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 .button-portfolio{
     display: flex;
@@ -210,9 +230,14 @@ button{
     margin-bottom: 72px;
     justify-content: center;
 }
+.hh2{
+    visually-hidden;
+}
+
 .description{
     display: flex;
     gap: 24px;
+    width: calc((100%-3*24px)/4);
 }
 .header-second{
     font-family: 'Roboto', sans-serif;
@@ -223,13 +248,12 @@ button{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
-    
+    margin-bottom: 72px;
 }
 .employees{
     display: flex;
     flex-wrap: wrap; 
-    gap: 24px;
-    margin-bottom: 120px;   
+    gap: 24px;   
 }
 .photo{
     flex-basis: calc((100%-48px)/3);
@@ -241,7 +265,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;    
     color: var(--title-color);
-    padding-top: 8px;
+    margin-bottom: 8px;    
 }
 .paragraf{
     font-family: 'Roboto',sans-serif;
@@ -266,13 +290,19 @@ button{
 }
 .punkt{
     background-color: #FFFFFF;
+    width: calc((100%-48px)/3);
 }
 .card-content{
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    padding-right: 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
+}
+.section-portfolio{
+    padding-top: 96px0;
+    padding-bottom: 120px0;
 }
 /*=================/Hero=============*/
 /*=================Footer===========*/
