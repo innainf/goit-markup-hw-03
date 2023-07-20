@@ -41,11 +41,13 @@ button{
     padding-right: 15px;
 }
 .page-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container{
+    width: 1158px;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     align-items: center;
 }
@@ -108,7 +110,6 @@ button{
     align-items: center;    
 }
 .menu-item:not(:last-child){
-    margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -176,9 +177,10 @@ button{
     line-height:1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 48px;
     max-width: 496px;
+    margin-bottom: 48px;
 }
+   
 .button-about{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -188,14 +190,15 @@ button{
     color:#FFFFFF;
     background-color:#4D5AE5;
     cursor: pointer;
-    border-radius: 4px;
-    min-width: 160px;
+    min-width: 169px;
     margin-top: 48px;
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
     padding-left: 32px;
     display: block;
+    height: 56px;
+    border: none;
 }
 .button-about:hover, 
 .button-about:focus{
@@ -217,6 +220,9 @@ button{
     padding-right: 24px;
     border: 1px solid var(--border-botton);
     border-radius: 4px;
+    display: block;
+    min-width: 169;
+
 }
 .button:hover, 
 .button:focus{
@@ -230,6 +236,18 @@ button{
     margin-bottom: 72px;
     justify-content: center;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 .hh2{
     visually-hidden;
 }
