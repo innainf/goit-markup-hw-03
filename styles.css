@@ -105,11 +105,10 @@ button{
 }
 /*=================/Component=========*/
 /*=================Header=========*/
+
 .menu{
     display: flex;
-    align-items: center;    
-}
-.menu-item:not(:last-child){
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -169,6 +168,7 @@ button{
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    display: ;
 }
 .main-title{
     font-family: 'Roboto', sans-serif;
@@ -180,7 +180,19 @@ button{
     max-width: 496px;
     margin-bottom: 48px;
 }
-   
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .button-about{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -235,6 +247,16 @@ button{
     gap: 24px;
     margin-bottom: 72px;
     justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid var(--border-botton);
+    border-radius: 4px;
+}
+.button-portfolio:hover,
+.button-portfolio:focus{
+    border: 1px solid transparent;
 }
 .visually-hidden {
     position: absolute;
@@ -271,7 +293,9 @@ button{
 .employees{
     display: flex;
     flex-wrap: wrap; 
-    gap: 24px;   
+    column-gap: 24px;   
+    row-gap: 48px;
+    
 }
 .photo{
     flex-basis: calc((100%-48px)/3);
@@ -319,9 +343,10 @@ button{
     border-top: none;
 }
 .section-portfolio{
-    padding-top: 96px0;
-    padding-bottom: 120px0;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
+
 /*=================/Hero=============*/
 /*=================Footer===========*/
 .logo-color-list{
@@ -338,6 +363,9 @@ button{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+    margin-bottom: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .paragraf-footer{
     font-family: 'Roboto', sans-serif;
