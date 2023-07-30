@@ -13,15 +13,7 @@
     --logi-color-footer: #F4F4FD;
     --border-botton:#e7e9fc ;
 }
-h1,
-h2,
-h3,
-h4,
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-    
-}
+
 ul,
 ol{
     margin-top: 0;
@@ -34,11 +26,11 @@ img{
 button{
     cursor: pointer;
 }
-.container {
-    width: 1158px;
+.container {    
+    max-width: 1158;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left:15px;
+    padding-right:15px;     
 }
 .page-header{
     border-bottom: 1px solid #e7e9fc;
@@ -83,6 +75,7 @@ button{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     color:var(--title-color);
 }
 .address{
@@ -119,6 +112,7 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--title-color);
+    padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -178,7 +172,7 @@ button{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
-    margin-bottom: 48px;
+    margin: 0;
 }
 .visually-hidden {
     position: absolute;
@@ -203,7 +197,7 @@ button{
     background-color:#4D5AE5;
     cursor: pointer;
     min-width: 169px;
-    margin-top: 48px;
+    margin:0 auto;
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
@@ -270,9 +264,9 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
-.hh2{
+/*.hh2{
     visually-hidden;
-}
+}*/
 
 .description{
     display: flex;
@@ -295,9 +289,6 @@ button{
     flex-wrap: wrap; 
     column-gap: 24px;   
     row-gap: 48px;
-    
-}
-.photo{
     flex-basis: calc((100%-48px)/3);
 }
 .title{
@@ -320,6 +311,7 @@ button{
 
 .section-fourth{
     background-color: #F4F4FD;    
+    margin: 0;
 }
 .employees-card{
     flex-basis: calc((100%-72px)/4);
