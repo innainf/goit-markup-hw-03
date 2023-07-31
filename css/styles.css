@@ -130,9 +130,11 @@ button{
 }
 .address{
   font-style: normal;
+}    
+.address-menu{
   display: flex;
   gap: 40px;
-}    
+}
 .menu-link-address{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -331,7 +333,7 @@ padding: 120px 0;
   row-gap: 48px;
   margin-bottom: 120px;
 }
-.cards {
+.pictures {
   background-color: #FFFFFF;
   width: calc((100% - 48px) / 3);
 }
