@@ -37,6 +37,7 @@ button{
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 .page-header{
   border-bottom: 1px solid #E7E9FC;
@@ -136,7 +137,6 @@ button{
 }
 .menu-link-address{
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,8 +144,7 @@ button{
   font-style: normal;
   display: flex;
   gap: 40px;
-  margin-right: 40px;
-  
+   
 }
 .menu-link-address:hover,
 .menu-link-address:focus{
@@ -354,6 +353,18 @@ padding: 120px 0;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #F4F4FD;
+}
+.logo-footer{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;  
+  color:#4D5AE5;
+  margin-right: 76px;
+  display: inline-block;
+
 }
 .paragraf-footer{
   font-family: 'Roboto', sans-serif;
